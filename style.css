@@ -1,0 +1,17 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   background-color: black;
+   color: #CBB26A;
+}
+
+.name {
+    
+    font-weight: 900;
+}
+
+input, text {
+    color: black;
+    border: solid;
+    border-color: black;
+}
