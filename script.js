@@ -2,6 +2,7 @@ const $firstName = $('#first_name');
 const $lastName = $('#last_name');
 const $position = $('#position');
 const $team = $('#team')
+const $conference = $('#conference')
 const $input = $('input[type="text"]')
 
 let playerData, userInput;
@@ -31,6 +32,7 @@ function render() {
     $lastName.text(playerData.last_name);
     $position.text(playerData.position);
     $team.text(playerData.team.full_name);
+    $conference.text(playerData.team.conference);
 }
 
-$team.style.color = 'red'
+
