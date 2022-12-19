@@ -1,15 +1,16 @@
+
 body {
    font-family: Arial, Helvetica, sans-serif;
    text-align: center;
-   background-color: black;
+   background-color:rgb(51, 47, 47);
    color: #CBB26A;
-   
-   
+   width: auto;
+   height: auto;
 }
 
 .name {
     
-    font-weight:bolder;
+    font-weight:normal;
     font-size: larger;
 }
 
@@ -20,10 +21,22 @@ input, text {
 }
 
 p {
-    font-weight:bolder;
+    font-weight:normal;
     font-size: larger;
 }
 img {
-   width:fit-content;
-   position:relative;
+    
+   width: max-content;
+    position:relative;
+   
+   
+}
+
+.info {
+    
+    background-color: #CBB26A;
+}
+div {
+    align-content: space-around;
+    flex-direction: column;
 }
